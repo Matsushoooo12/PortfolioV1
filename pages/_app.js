@@ -1,8 +1,15 @@
 import "../styles/globals.css";
-import { Center, ChakraProvider } from "@chakra-ui/react";
+import "swiper/css/bundle";
+import {
+  Center,
+  ChakraProvider,
+  useColorMode,
+  useColorModeValue,
+} from "@chakra-ui/react";
 
 import { extendTheme } from "@chakra-ui/react";
 import Header from "../components/Layouts/Header";
+import { useState } from "react";
 
 const colors = {
   brand: {
@@ -24,12 +31,12 @@ const theme = extendTheme({
 });
 
 function MyApp({ Component, pageProps }) {
+  const bg = useColorModeValue("white", "gray.800");
   return (
     <ChakraProvider theme={theme}>
-      <Center h="100vh" position="relative" minWidth="1000px">
-        <Header />
+      <Header>
         <Component {...pageProps} />
-      </Center>
+      </Header>
     </ChakraProvider>
   );
 }
