@@ -21,7 +21,7 @@ const Header = ({ children }) => {
   // console.log("colorMode", colorMode);
   return (
     <Center
-      h="100vh"
+      h={router.asPath === `/works/${router.query.id}` ? "100%" : "100vh"}
       position="relative"
       minWidth="1000px"
       // bg="black"
@@ -30,11 +30,11 @@ const Header = ({ children }) => {
     >
       <Flex
         justifyContent="space-between"
-        position="absolute"
+        position="fixed"
         top="40px"
         w="95%"
         zIndex="1000"
-        bg={useColorModeValue("gray.100", "gray.900")}
+        // bg={useColorModeValue("gray.100", "gray.900")}
       >
         <IconButton
           onClick={() => router.push("/")}

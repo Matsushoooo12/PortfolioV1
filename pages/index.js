@@ -18,7 +18,8 @@ export default function Home() {
         strings={[
           "Hello! I'm Shogo Matsumoto.",
           "I'm a software engineer.",
-          "I love to creating different things and Katsukare🍛.",
+          "I love Katsukare🍛.",
+          "I also love app development.",
         ]}
         typeSpeed={40}
         backSpeed={50}
@@ -27,7 +28,7 @@ export default function Home() {
           fontSize: "40px",
           fontWeight: "bold",
           zIndex: 3,
-          color: colorMode === "light" ? "black" : "white",
+          color: colorMode === "light" ? "black" : "gray",
         }}
       />
       <Box>
