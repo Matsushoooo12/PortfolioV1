@@ -40,8 +40,8 @@ export default function Home() {
             bottom: 0,
             margin: "auto",
             zIndex: "1",
-            width: "1000px",
-            height: "1000px",
+            width: "2000px",
+            height: "2000px",
             position: "absolute",
             pointerEvents: "auto",
           }}
