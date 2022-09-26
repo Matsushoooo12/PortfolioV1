@@ -180,7 +180,12 @@ const DetailWork = () => {
             </SwiperSlide>
           </Swiper>
           <Box mt="40px">
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               概要
             </Heading>
             <UnorderedList mb="16px">
@@ -194,7 +199,12 @@ const DetailWork = () => {
                 ものづくりを構想段階から作った後までをサポートして、より気軽に個人規模でのものづくりを実現しやすくすることにより、「職業ものづくり」を増やしていきたい。
               </ListItem>
             </UnorderedList>
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               使用技術
             </Heading>
             <Text fontSize="2xl" fontWeight="bold">
@@ -219,7 +229,12 @@ const DetailWork = () => {
             <UnorderedList mb="16px">
               <ListItem>Vercel</ListItem>
             </UnorderedList>
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               目的
             </Heading>
             <Text fontSize="2xl" fontWeight="bold" mb="16px">
@@ -235,13 +250,19 @@ const DetailWork = () => {
             <Text mb="16px">
               来場したデジハリの学生たちには好評で、何人もに使ってみたいと言ってもらうことができました。
             </Text>
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               作品リンク
             </Heading>
             <Text mb="16px">
               詳細な作品説明については以下のリンクから見ることができます。
             </Text>
             <Text fontWeight="bold">作品説明</Text>
+            <Text>※このリンクに作成背景や作った理由を載せています。</Text>
             <Link
               mb="16px"
               color="teal"
@@ -260,7 +281,7 @@ const DetailWork = () => {
               https://github.com/Matsushoooo12/TheCreators
             </Link>
             <Text fontWeight="bold">WebサイトURL</Text>
-            <Text mb="16px">
+            <Text>
               ※データベースの期限の問題で現在ダミーデータが入っていません。休止中です。
             </Text>
             <Link
@@ -414,7 +435,12 @@ const DetailWork = () => {
             </SwiperSlide>
           </Swiper>
           <Box mt="40px">
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               概要
             </Heading>
             <Text fontWeight="bold" mb="16px">
@@ -426,7 +452,12 @@ const DetailWork = () => {
               </Tag>
               の感情をイメージした色とキャラクターを使って感情ベースで投稿ができ、それを見返すことで自分が普段どんな感情を持って生活しているのかを分析できる。
             </Text>
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               使用技術
             </Heading>
             <Text fontSize="2xl" fontWeight="bold">
@@ -450,7 +481,12 @@ const DetailWork = () => {
             <UnorderedList mb="16px">
               <ListItem>Heroku</ListItem>
             </UnorderedList>
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               目的
             </Heading>
             <Text fontSize="2xl" fontWeight="bold" mb="16px">
@@ -463,7 +499,12 @@ const DetailWork = () => {
             <Text mb="16px">
               モダンなWebアプリ開発の仕組みを理解するために開発。
             </Text>
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               データベース設計
             </Heading>
             <Image
@@ -472,7 +513,12 @@ const DetailWork = () => {
               w="50%"
               mb="16px"
             />
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               作品リンク
             </Heading>
             <Text mb="16px">
@@ -663,7 +709,12 @@ const DetailWork = () => {
             </SwiperSlide>
           </Swiper>
           <Box mt="40px">
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               概要
             </Heading>
             <Text mb="16px">
@@ -681,7 +732,12 @@ const DetailWork = () => {
               <ListItem>フォロー機能</ListItem>
               <ListItem>DM機能</ListItem>
             </UnorderedList>
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               使用技術
             </Heading>
             <Text fontSize="2xl" fontWeight="bold">
@@ -712,7 +768,12 @@ const DetailWork = () => {
             <Text mb="16px">
               モダンなWebアプリ開発の仕組みを理解するために開発。
             </Text>
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               データベース設計
             </Heading>
             <Image
@@ -721,7 +782,12 @@ const DetailWork = () => {
               w="70%"
               mb="16px"
             />
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               作品リンク
             </Heading>
             <Text mb="16px">
@@ -843,7 +909,12 @@ const DetailWork = () => {
             </SwiperSlide>
           </Swiper>
           <Box mt="40px">
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               概要
             </Heading>
             <UnorderedList mb="16px">
@@ -861,7 +932,12 @@ const DetailWork = () => {
                 現在はバンドメンバーとコミュニケーションを取りながら、地道に改善しながらサイト運営を行っています。
               </ListItem>
             </UnorderedList>
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               使用技術
             </Heading>
             <Text fontSize="2xl" fontWeight="bold">
@@ -888,7 +964,12 @@ const DetailWork = () => {
             <UnorderedList mb="16px">
               <ListItem>AWS</ListItem>
             </UnorderedList>
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               運営
             </Heading>
             <Text fontSize="2xl" fontWeight="bold" mb="16px">
@@ -903,7 +984,12 @@ const DetailWork = () => {
               w="50%"
               mb="16px"
             />
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               作品リンク
             </Heading>
             <Text mb="16px">
@@ -1045,7 +1131,12 @@ const DetailWork = () => {
             </SwiperSlide>
           </Swiper>
           <Box mt="40px">
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               概要
             </Heading>
             <UnorderedList mb="16px">
@@ -1067,13 +1158,23 @@ const DetailWork = () => {
                 実際にサンゴ礁がなくなっていく過程を一人の男性の支店で見せることで、珊瑚の必要性を身近に感じ、危機感を抱いてもらえると思います。
               </ListItem>
             </UnorderedList>
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               使用技術
             </Heading>
             <UnorderedList mb="16px">
               <ListItem>Adobe XD</ListItem>
             </UnorderedList>
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               作品リンク
             </Heading>
             <Text mb="16px">
@@ -1242,7 +1343,12 @@ const DetailWork = () => {
             </SwiperSlide>
           </Swiper>
           <Box mt="40px">
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               概要
             </Heading>
             <UnorderedList mb="16px">
@@ -1251,7 +1357,12 @@ const DetailWork = () => {
                 大学生である私の視点から、コロナ期間の孤独に打ち勝ち、大学に行けない間に同級生と差をつけるアプリを作りました。
               </ListItem>
             </UnorderedList>
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               使用技術
             </Heading>
             <UnorderedList mb="16px">
@@ -1261,7 +1372,12 @@ const DetailWork = () => {
               <ListItem>CSS</ListItem>
               <ListItem>Heroku</ListItem>
             </UnorderedList>
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               機能一覧
             </Heading>
             <UnorderedList mb="16px">
@@ -1275,7 +1391,12 @@ const DetailWork = () => {
               <ListItem>投稿機能</ListItem>
               <ListItem>カレンダー</ListItem>
             </UnorderedList>
-            <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">
+            <Heading
+              fontSize="3xl"
+              borderBottom="2px solid black"
+              borderColor={colorMode === "light" ? "black" : "white"}
+              mb="16px"
+            >
               作品リンク
             </Heading>
             <Text mb="16px">
