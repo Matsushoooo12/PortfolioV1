@@ -28,7 +28,7 @@ export default function Home() {
           fontSize: "40px",
           fontWeight: "bold",
           zIndex: 3,
-          color: colorMode === "light" ? "black" : "gray",
+          color: colorMode === "light" ? "black" : "white",
         }}
       />
       <Box>
