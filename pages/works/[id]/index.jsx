@@ -260,6 +260,9 @@ const DetailWork = () => {
               https://github.com/Matsushoooo12/TheCreators
             </Link>
             <Text fontWeight="bold">WebサイトURL</Text>
+            <Text mb="16px">
+              ※データベースの期限の問題で現在ダミーデータが入っていません。休止中です。
+            </Text>
             <Link
               mb="16px"
               color="teal"
@@ -1056,6 +1059,12 @@ const DetailWork = () => {
               <ListItem>コンセプトは「未来日記から学ぶ環境保全」</ListItem>
               <ListItem>
                 珊瑚の重要性や保全理由、現状を絵日記を通して伝え、企業、個人それぞれが取り組めることを提示したWebサイトです。
+              </ListItem>
+              <ListItem>
+                珊瑚の重要性や保全理由を知ってもらうために、「珊瑚のない世界」という絵日記でアプローチしました。
+              </ListItem>
+              <ListItem>
+                実際にサンゴ礁がなくなっていく過程を一人の男性の支店で見せることで、珊瑚の必要性を身近に感じ、危機感を抱いてもらえると思います。
               </ListItem>
             </UnorderedList>
             <Heading fontSize="3xl" borderBottom="2px solid black" mb="16px">

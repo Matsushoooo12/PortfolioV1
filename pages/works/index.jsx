@@ -163,8 +163,6 @@ const Works = () => {
               cursor="pointer"
               _hover={{ opacity: "0.8" }}
               onClick={() => router.push(`/works/${content.id}`)}
-              //   border={id === content.id && "3px solid black"}
-              //   borderColor="teal.500"
               position="relative"
               onMouseOver={() => setId(content.id)}
             >
