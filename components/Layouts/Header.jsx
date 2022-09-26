@@ -64,6 +64,15 @@ const Header = ({ children }) => {
           </Link>
           <Link
             textDecoration={
+              router.asPath === "/career" ? "line-through" : "none"
+            }
+            color={router.asPath === "/career" ? "teal" : "teal.300"}
+            onClick={() => router.push("/career")}
+          >
+            Career
+          </Link>
+          <Link
+            textDecoration={
               router.asPath === "/works" ? "line-through" : "none"
             }
             color={router.asPath === "/works" ? "teal" : "teal.300"}

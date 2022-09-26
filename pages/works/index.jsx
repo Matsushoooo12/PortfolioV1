@@ -180,16 +180,14 @@ const Works = () => {
                 borderRadius="xl"
                 display={id === content.id ? "block" : "none"}
               ></Box>
-              <Tooltip hasArrow label={content.title} bg="teal" color="white">
-                <Image
-                  src={content.src}
-                  alt={content.src}
-                  fit="cover"
-                  w="100%"
-                  h="100%"
-                  borderRadius="xl"
-                />
-              </Tooltip>
+              <Image
+                src={content.src}
+                alt={content.src}
+                fit="cover"
+                w="100%"
+                h="100%"
+                borderRadius="xl"
+              />
             </Flex>
           ))}
         </Flex>

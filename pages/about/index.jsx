@@ -1,5 +1,17 @@
-import { Box, Flex, Heading, Text, useColorMode } from "@chakra-ui/react";
+import {
+  Avatar,
+  Box,
+  Divider,
+  Flex,
+  Heading,
+  HStack,
+  Icon,
+  Text,
+  useColorMode,
+} from "@chakra-ui/react";
 import React from "react";
+import { HiArrowSmDown } from "react-icons/hi";
+import { BsThreeDotsVertical } from "react-icons/bs";
 
 const About = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -10,11 +22,28 @@ const About = () => {
       height="100vh"
       justifyContent="center"
       alignItems="center"
+      flexDirection="column"
+      color={colorMode === "light" ? "black" : "white"}
     >
-      <Flex
-        flexDirection="column"
-        color={colorMode === "light" ? "black" : "white"}
-      >
+      <Flex flexDirection="column" alignItems="center">
+        <Avatar
+          size="2xl"
+          name="Shogo Matsumoto"
+          src="https://user-images.githubusercontent.com/66903388/192259924-dd48df6d-9340-4b80-8124-01ffdac868a9.png"
+          mb="16px"
+        />
+        <Heading>Shogo Matsumoto</Heading>
+        <Box my="24px">
+          <Text>
+            デジタルハリウッド大学４年。広島出身。現在ソフトウェアエンジニアとして長期インターン中。
+          </Text>
+          <Text>趣味はアプリの個人開発とスポーツ観戦。あと、音楽鑑賞も。</Text>
+          <Text>
+            最近好きなアーティストはyonige。好きなサッカーチームはサンフレッチェ広島。
+          </Text>
+        </Box>
+      </Flex>
+      <Flex flexDirection="column">
         <Heading alignSelf="center" mb="24px">
           『ものづくり』で生きていきたい
         </Heading>
