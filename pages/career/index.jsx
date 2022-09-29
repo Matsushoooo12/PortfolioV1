@@ -67,7 +67,7 @@ const Career = () => {
             2020/10 ~ 2021/06
           </Text>
           <Text fontSize="20px" fontWeight="bold">
-            株式会社Wemotion インターン
+            株式会社Wemotion エンジニアインターン
           </Text>
         </HStack>
         <Icon
@@ -92,7 +92,7 @@ const Career = () => {
             2022/02 ~ 2022/05
           </Text>
           <Text fontSize="20px" fontWeight="bold">
-            株式会社Philduct インターン
+            株式会社Philduct エンジニアインターン
           </Text>
         </HStack>
         <Icon
@@ -117,7 +117,7 @@ const Career = () => {
             2023/3 ~ 現在
           </Text>
           <Text fontSize="20px" fontWeight="bold">
-            株式会社ミツモア インターン
+            株式会社ミツモア エンジニアインターン
           </Text>
         </HStack>
         <Icon

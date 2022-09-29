@@ -20,6 +20,11 @@ export default function Home() {
           "I'm a software engineer.",
           "I love Katsukare🍛.",
           "I also love app development.",
+          "If you want to see my information, please go to About page..",
+          "If you want to see my background, please go to Career page.",
+          "If you want to see my portfolio, please go to the Works page.",
+          "By the way, you can move the 3D model by dragging.",
+          "Have fun!＼(^o^)／",
         ]}
         typeSpeed={40}
         backSpeed={50}
