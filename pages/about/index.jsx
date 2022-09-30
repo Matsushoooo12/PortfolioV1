@@ -6,6 +6,7 @@ import {
   Heading,
   HStack,
   Icon,
+  Link,
   Text,
   useColorMode,
 } from "@chakra-ui/react";
@@ -33,6 +34,12 @@ const About = () => {
           mb="16px"
         />
         <Heading>Shogo Matsumoto</Heading>
+        <Link
+          color="teal"
+          href="https://www.dhw.ac.jp/life/student/matsumotoshogo/"
+        >
+          大学の在学生紹介リンク
+        </Link>
         <Box my="24px">
           <Text>
             デジタルハリウッド大学４年。広島出身。現在ソフトウェアエンジニアとして長期インターン中。
